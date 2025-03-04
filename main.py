@@ -12,6 +12,7 @@ This game is an excellent way to practice using loops, conditionals, and modular
 # Start by printing the welcome message:
 
 print("Welcome to FizzBuzz!")
+from functools import lru_cache
 
 
 # Now, create a function called fizzbuzz() that takes a single parameter, amount, and follows the rules above"""
