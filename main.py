@@ -45,3 +45,12 @@ def fizzbuzz(amount):
         else:
             print(i)  # if none of the above conditions are met, then print the increment.
             continue
+
+
+    if amount <= 0:
+        print("Invalid Value")
+        quit()
+    print("That's all of the numbers!")
+
+if __name__ == '__main__':
+    fizzbuzz(amount)
